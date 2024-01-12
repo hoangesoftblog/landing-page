@@ -1,0 +1,59 @@
+:root {
+	--header: 3rem;
+	--footer: 2.5em;
+	--main: calc(100vh - calc(var(--header) + var(--footer)));
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.container {
+    margin: auto;
+    width: 60%;
+}
+
+
+.bg-mu-black {
+    background-color: #1a1a1a;
+}
+
+.bg-mu-red {
+    background-color: rgb(199, 1, 1);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.info {
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
+
+.hero {
+    /* padding: 2em; */
+}
+
+.footer {
+    text-align: center;
+    padding: 2em;
+    color: white;
+}
+
+.quotes {
+    padding: 2em;
+    color: white;
+}
+
